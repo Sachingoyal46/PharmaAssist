@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    /* background-color: rgb(234, 211, 230); */
+    margin: auto;
+    max-width: 95%;
+}
+.box{
+    margin: auto;
+    text-align: center;
+}
+
+input,textarea{
+    font-size: 10px;
+    width: 80%;
+    margin: 13px;
+    padding: 9px;
+    border-radius: 8px;
+
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    background-color: rgb(203, 81, 142);
+    padding: 10px 10px;
+    margin: 5px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    opacity: 0.9;
+    z-index: -1;
+}
